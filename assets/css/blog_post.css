@@ -1,0 +1,45 @@
+@import url("reset.css");
+@import url("pages/button.css");
+@import url("pages/color.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: var(--font-primary);
+    background-color: var(--background-dark);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-block: 18px;
+    width: 992px;
+
+}
+.container__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 380px;
+}
+
+.container__logo{
+    text-align: center;
+    font-size: 30px;
+    color: var(--text);
+    line-height: 120%;
+    font-weight: 600px;
+}
+
+.container__nav a{
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600px;
+    line-height: 150%;
+    text-align: center;
+}
