@@ -1,0 +1,39 @@
+.button-container {
+  background-color: var(--white);
+  margin: 2rem;
+  padding: 1rem;
+  height: 380px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 25%);
+}
+.grid div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.grid--size {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 40%);
+}
+
+.full {
+  display: flex;
+  align-items: baseline;
+  gap: 47px;
+}
+
+.full div {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 81px;
+  border: 2px solid var(--gray-200);
+  border-radius: 8px;
+  border-style: dashed;
+}
