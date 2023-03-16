@@ -16,7 +16,7 @@
 }
 
 .grid--size {
-  width: 70%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 40%);
