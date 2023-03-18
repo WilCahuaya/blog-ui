@@ -1,0 +1,47 @@
+.portafolio {
+  text-align: center;
+}
+
+.portafolio__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.3125em 2em;
+}
+
+.portafolio__card {
+  text-align: left;
+  padding: 1.5em;
+  background-color: var(--background-light);
+}
+
+.portafolio__icon-technology {
+  display: flex;
+  gap: 1em;
+}
+
+.portafolio__icon-technology div {
+  width: 40px;
+  height: 40px;
+  background-color: var(--gray-100);
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portafolio__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portafolio__badge {
+  display: flex;
+  gap: 0.5em;
+  padding: 0;
+}
+
+.portafolio__badge li {
+  background-color: #fce7f3;
+  padding: 0.125em 0.625em;
+  border-radius: 0.625em;
+}

@@ -3,10 +3,6 @@
 .about-skills {
   text-align: center;
 }
-.about-hobbies__header,
-.about-skills__header {
-  margin-bottom: 1em;
-}
 
 .about-skills__content {
   display: grid;

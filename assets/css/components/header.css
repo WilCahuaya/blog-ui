@@ -2,6 +2,10 @@
   background-color: var(--white);
 }
 
+.header-bg {
+  background-color: var(--background);
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
