@@ -1,0 +1,50 @@
+/*My Skills*/
+.about-hobbies__header,
+.about-skills {
+  text-align: center;
+}
+.about-hobbies__header,
+.about-skills__header {
+  margin-bottom: 1em;
+}
+
+.about-skills__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2.375em;
+}
+
+.about-skills__card {
+  display: flex;
+}
+
+.about-skills__card img {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.about-skills__content_card {
+  text-align: left;
+  margin-left: 1.2em;
+}
+
+/*My hobbies*/
+
+.about-hobbies {
+  background-color: var(--background-dark);
+}
+
+.about-hobbies__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1em;
+}
+
+.about-hobbies__card-text {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.about-hobbies__card img {
+  border-radius: 0.5em;
+}
