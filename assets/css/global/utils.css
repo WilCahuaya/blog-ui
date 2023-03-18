@@ -1,0 +1,59 @@
+.w-full {
+  width: 100%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.overline {
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/*Text align*/
+.text-align-center {
+  text-align: center;
+}
+
+/*margin left*/
+.ml-4 {
+  margin-left: 1rem;
+}
+
+/*line height*/
+.line-height-1em {
+  line-height: 1em;
+}
+
+.color--primary {
+  color: var(--primary);
+}
+
+.color--primary-dark {
+  color: var(--primary-dark);
+}
+
+.bg-color-secondary-light {
+  background-color: var(--secondary-light);
+}

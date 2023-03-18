@@ -1,58 +1,97 @@
-body {
-  font-family: var(--font-primary);
-}
-header,
-footer {
-  padding-inline: 16px;
-  background-color: var(--gray-900);
-  color: white;
-  font-size: 30px;
+.article-summary {
   text-align: center;
 }
-.section_md {
-  background-color: #f3f4f6;
-  padding-block: 48px;
+
+.article-summary__content {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.article-summary__card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 0.625em;
+  padding: 0.5em;
 }
-.container_md {
-  padding-inline: 16px;
+
+.article {
+  font-size: 18px;
+  /* rem => en relación con el :root => html */
+  /* 16px => 1rem ? => 18px => 1.125rem */
+  /* em => en relación con su elemento padre. */
+  /* 16px => 1em ? => 18px => 1.125em */
+  color: var(--gray-900);
 }
-@media screen and (min-width: 800px) {
-  .container_md {
-    padding-inline: 16px;
-    width: 736px;
-  }
-}
-h1 {
+
+.article h1 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
   margin-bottom: 32px;
 }
-.p_first {
-  margin-bottom: 56px;
-}
-p,
-h2 {
+
+.article h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
   margin-bottom: 24px;
+  margin-top: 56px;
 }
-ul {
-  padding-left: 30px;
-  margin-bottom: 24px;
-  margin-top: 0;
+
+.article p {
+  margin: 24px 0;
+  line-height: 32px;
+  font-weight: 300;
 }
-a {
-  color: #be185d;
+
+.article strong {
+  font-weight: 600;
 }
-blockquote {
-  padding: 16px;
-  background-color: #d6d3d1;
+
+.article a {
+  font-weight: 400;
+  color: var(--pink-700);
+}
+
+.article li {
+  font-weight: 300;
+  margin: 18px 0;
+  line-height: 32px;
+}
+
+.article blockquote {
+  margin: 24px 0;
+  padding: 16px 18px;
+  line-height: 32px;
+  font-weight: 300;
+  border-left: 4px solid var(---stone-300);
+
+  /* margin: 24px 0;
+  padding: 16px 18px;
+  background: #D6D3D1;
   border-radius: 8px;
-  margin-bottom: 32px;
+  line-height: 32px;
+  font-weight: 400; */
+
+  /* <em></em> =  */
+  /* font-style: italic; */
 }
-img {
+
+.article figure {
+  margin: 32px 0;
+}
+
+.article figcaption {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.article img {
   border-radius: 8px;
-  margin-bottom: 16px;
-}
-figure {
-  margin-bottom: 56px;
 }

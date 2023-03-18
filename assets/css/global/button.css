@@ -6,7 +6,7 @@
   line-height: 1em;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 12px 16px;
+  padding: 0.75em 1em;
   cursor: pointer;
 
   display: flex;
@@ -16,21 +16,13 @@
 }
 
 .button--sm {
-  font-size: 0.9rem;
-  padding: 0.5rem 0.75rem;
+  font-size: 0.85em;
+  padding: 0.5em 0.75em;
 }
 
 .button--lg {
-  font-size: 1.125rem;
-  padding: 0.85rem 1.5rem;
-}
-
-/*Button Full Width primary*/
-
-.button--primary--w-full {
-  width: 100%;
-  font-size: 1rem;
-  padding-block: 12px;
+  font-size: 1.2em;
+  padding: 0.875em 1.5em;
 }
 
 /* button default */
@@ -71,7 +63,7 @@
 }
 
 .button--primary:active {
-  background-color: var(--primary);
+  background-color: var(--primary-darker);
 }
 
 .button--primary:focus {
@@ -96,7 +88,7 @@
 }
 
 .button--secondary:active {
-  background-color: var(--secondary);
+  background-color: var(--secondary-darker);
 }
 
 .button--secondary:focus {
