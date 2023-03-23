@@ -12,13 +12,23 @@
     <header class="header">
       <div class="container--lg">
         <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
           <a
             href="/index.html"
             class="navbar__logo heading--md semibold text-decoration-none"
           >
-            <span> WilCahuaya</span></a
-          >
-          <ul class="navbar__links list-style-none">
+            <span> WilCahuaya</span>
+            <!-- option 1 -->
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <!-- option 2 -->
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
+          </a>
+          <ul class="expandable navbar__links list-style-none">
             <li>
               <a href="article.html" class="link text-md semibold">Articles</a>
             </li>
@@ -46,7 +56,7 @@
       <div class="container--lg">
         <h2 class="heading--xl regular">
           Hi! I’m <span class="semibold color--primary">WilCahuaya</span>, full
-          stack developer looking for new adventuressss
+          stack developer looking for new adventures
         </h2>
         <p class="text--xl light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget velit
