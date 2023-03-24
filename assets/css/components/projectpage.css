@@ -1,0 +1,48 @@
+.projectpage__start {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 690px) {
+  .projectpage__start {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.projectpage-built__header,
+.projectpage-team__header {
+  margin-bottom: 3rem;
+}
+.projectpage__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+}
+
+.projectpage-built__card div {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 6px;
+}
+
+.projectpage-team__card-img {
+  border-radius: 8px;
+  width: 320px;
+  height: 256px;
+}
+
+.projectpage__img {
+  width: 384px;
+  height: 327px;
+  border-radius: 8px;
+}
+
+.projectpage-team__card div {
+  display: flex;
+  gap: 1.3125rem;
+}
