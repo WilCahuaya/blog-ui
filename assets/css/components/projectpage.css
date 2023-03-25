@@ -2,6 +2,9 @@
   display: flex;
   gap: 2rem;
 }
+.projectpage__button-repo {
+  width: 28%;
+}
 
 @media (max-width: 690px) {
   .projectpage__start {
